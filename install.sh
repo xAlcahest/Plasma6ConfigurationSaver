@@ -9,7 +9,7 @@ echo "Downloading Plasma6ConfigurationSaver plasmoid..."
 
 # Download the plasmoid archive (replace with actual URL when hosted)
 # For now, using a placeholder - user must replace with actual GitHub release URL
-PLASMOID_URL="https://github.com/YOUR_USERNAME/YOUR_REPO/releases/download/v1.0/plasma_config_saver.tar.gz"
+PLASMOID_URL="https://github.com/xAlcahest/Plasma6ConfigurationSaver/releases/download/v1.0/plasma_config_saver.tar.gz"
 
 curl -L "$PLASMOID_URL" -o /tmp/plasma_config_saver.tar.gz
 

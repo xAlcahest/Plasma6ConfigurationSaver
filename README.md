@@ -16,7 +16,7 @@ To install manually, run `kpackagetool6 --install .` in the directory of the pro
 For easy installation, use this one-liner (requires internet connection):
 
 ```bash
-curl -s https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh | bash
+curl -s https://raw.githubusercontent.com/xAlcahest/Plasma6ConfigurationSaver/main/install.sh | bash
 ```
 
 **Note:** Replace `YOUR_USERNAME` and `YOUR_REPO` with your actual GitHub username and repository name.
