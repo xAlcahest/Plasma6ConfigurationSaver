@@ -1,6 +1,8 @@
-Plasma Configuration Saver
+Plasma Configuration Saver for KDE Plasma 6
 ===========
 An applet to save your plasma configurations and change them on the fly.
+
+**Note:** This is a fork of the original Plasma6ConfigurationSaver repository. This version includes a one-liner installation script for easier deployment. The original work is not mine - I only added the installation convenience.
 
 ## Warning:
 - This is currently experimental, save your work before using.
@@ -44,3 +46,12 @@ To set up your own repository:
 - Runs **almost** perfectly in plasmoidviewer.
 - Crashes when applying theme after applet installed.
 - Need to logout and login to see the changes in Color Scheme and such.
+
+## Credits
+This plasmoid is a fork of the original work by [dhruv8sh](https://github.com/dhruv8sh).
+
+**Original Repository:** [https://github.com/dhruv8sh/Plasma6ConfigurationSaver](https://github.com/dhruv8sh/Plasma6ConfigurationSaver)
+
+**Original Creator:** dhruv8sh - The original developer who created and ported this plasmoid to KDE Plasma 6.
+
+**Fork Author:** xAlcahest - Added one-liner installation script for convenience. This fork is not affiliated with the original creator.
