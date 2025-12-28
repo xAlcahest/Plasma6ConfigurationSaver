@@ -48,10 +48,14 @@ To set up your own repository:
 - Need to logout and login to see the changes in Color Scheme and such.
 
 ## Credits
-This plasmoid is a fork of the original work by [dhruv8sh](https://github.com/dhruv8sh).
+This plasmoid is based on the original PlasmaConfSaver by paju1986, ported to Plasma 6 by dhruv8sh, and enhanced with a one-liner installer by xAlcahest.
 
-**Original Repository:** [https://github.com/dhruv8sh/Plasma6ConfigurationSaver](https://github.com/dhruv8sh/Plasma6ConfigurationSaver)
+**Original PlasmaConfSaver Repository:** [https://github.com/paju1986/PlasmaConfSaver](https://github.com/paju1986/PlasmaConfSaver)
 
-**Original Creator:** dhruv8sh - The original developer who created and ported this plasmoid to KDE Plasma 6.
+**Plasma 6 Port Repository:** [https://github.com/dhruv8sh/Plasma6ConfigurationSaver](https://github.com/dhruv8sh/Plasma6ConfigurationSaver)
 
-**Fork Author:** xAlcahest - Added one-liner installation script for convenience. This fork is not affiliated with the original creator.
+**Original Creator:** paju1986 - Created the original PlasmaConfSaver plasmoid.
+
+**Plasma 6 Porter:** dhruv8sh - Ported the plasmoid to KDE Plasma 6.
+
+**Fork Author:** xAlcahest - Added one-liner installation script for convenience. This fork is not affiliated with the original creators.
