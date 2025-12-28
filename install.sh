@@ -1,41 +1,33 @@
 #!/bin/bash
 
-# Script di Installazione Plasma6ConfigurationSaver
-# Questo script scarica e installa il plasmoid Plasma6ConfigurationSaver
+# Plasma6ConfigurationSaver Installation Script
+# This script downloads and installs the Plasma6ConfigurationSaver plasmoid
 
-set -e  # Esci su qualsiasi errore
+set -e  # Exit on any error
 
-echo "Scaricando il plasmoid Plasma6ConfigurationSaver..."
+echo "Downloading Plasma6ConfigurationSaver plasmoid..."
 
-# Scarica l'archivio del plasmoid (sostituisci con URL reale quando ospitato)
-# Per ora, usando un placeholder - l'utente deve sostituire con URL reale della release GitHub
+# Download the plasmoid archive (replace with actual URL when hosted)
+# For now, using a placeholder - user must replace with actual GitHub release URL
 PLASMOID_URL="https://github.com/xAlcahest/Plasma6ConfigurationSaver/releases/download/v1.0/plasma_config_saver.tar.gz"
 
 curl -L "$PLASMOID_URL" -o /tmp/plasma_config_saver.tar.gz
 
-echo "Estraendo il plasmoid..."
+echo "Extracting plasmoid..."
 
-# Estrai nella directory temporanea
+# Extract to temporary directory
 tar -xzf /tmp/plasma_config_saver.tar.gz -C /tmp
 
-echo "Installando il plasmoid..."
+echo "Installing plasmoid..."
 
-# Installa usando kpackagetool6
+# Install using kpackagetool6
 kpackagetool6 --install /tmp/Plasma6ConfigurationSaver
 
-echo "Pulendo i file temporanei..."
+echo "Cleaning up temporary files..."
 
-# Pulisci
+# Clean up
 rm /tmp/plasma_config_saver.tar.gz
 rm -rf /tmp/Plasma6ConfigurationSaver
 
-echo "Installazione del plasmoid Plasma6ConfigurationSaver completata!"
-echo ""
-echo "Per utilizzare il plasmoid:"
-echo "1. Clicca con il tasto destro sul pannello o sul desktop"
-echo "2. Seleziona 'Aggiungi widget' o 'Aggiungi plasmoidi'"
-echo "3. Cerca 'Plasma Configuration Saver'"
-echo "4. Trascinalo sul pannello o sul desktop"
-echo ""
-echo "⚠️  Avvertimento: Questa è una versione sperimentale. Salva il tuo lavoro prima di usarla."
-echo "   Se i pannelli o lo sfondo spariscono, esegui: systemctl --user restart plasma-plasmashell"
+echo "Plasma6ConfigurationSaver plasmoid installed successfully!"
+echo "You can now add it to your Plasma desktop from the widgets menu."
